@@ -1,0 +1,248 @@
+.main p {
+	text-align: center;
+}
+
+.calculator {
+    position: relative;
+	border: 1px solid burlywood;
+    border-bottom: black;
+    border-left:black;
+    border-right: black;
+	width: 232px;
+	height: 340px;
+	border-radius: 22px;
+	margin: auto;
+	padding: 30px;
+	margin-top: 40px;
+    background-color:#dfd8d0;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+.buttons {
+	margin-top: 10px;
+	height: 280px;
+}
+
+.myBtn {
+	height: 40px;
+	width: 45px;
+	margin: 1px 5px 5px 5px ;
+	border-radius:10px;
+	background-color: #3a3a3a;
+    font-size: 25px;
+    color: white;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+    font-family: 'Advent Pro', sans-serif;
+
+}
+
+.myBtn:Active{
+    height: 35px;
+}
+
+.equal:Active{
+    height: 84px;
+}
+.zero {
+	width: 104px;
+}
+
+.equal {
+	height: 90px;
+	position: absolute;
+}
+
+.nums {
+	border: 1px solid #333;
+}
+
+.screen {
+	border: 2px solid burlywood;
+	padding: 5px;
+	height: 60px;
+    width: 220px;
+    background-color: #c3c2ab;
+    border-radius: 8px;
+    border-right: black;
+    margin-top: -10px;
+    border-left: black;
+}
+
+.formula {
+	margin-top: -19px;
+	float: right;
+    color: gray;
+    font-family: 'VT323', monospace;
+
+}
+
+.result {
+	margin-top: -5px;
+	text-align: right;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+
+}
+
+#red{
+    background-color: crimson;
+}
+
+.moto{
+    font-size: 35px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    padding-top: 22px;
+    
+}
+
+.mot{
+    position: relative;
+    margin-top: -62px;
+}
+
+.title{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    margin-top: -21px;
+}
+
+.rightPath{
+    border: 1px soild black;
+  position: absolute;
+  height: 550px;
+  width: 450px;
+  margin: -275px -225px;
+  left: 185%;
+  top: 55%;
+}
+
+footer{
+    font-family: 'Advent Pro', sans-serif;
+    position: relative;
+    text-align: center;
+    margin-top: 70px;
+}
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+body {
+  margin: 0;
+  padding: 0;
+  background: lightgoldenrodyellow;
+}
+.paper {
+  position: absolute;
+  height: 500px;
+  width: 450px;
+  background: rgba(255,255,255,0.9);
+  margin: -275px -225px;
+  left: 19%;
+  top: 90%;
+  box-shadow: 0px 0px 5px 0px #888;
+}
+.paper::before {
+  content: '';
+  position: absolute;
+  left: 45px;
+  height: 100%;
+  width: 2px;
+  background: rgba(255,0,0,0.4);
+}
+.lines {
+  margin-top: 40px;
+  height: calc(100% - 40px);
+  width: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+}
+.text {
+  position: absolute;
+  top: 65px;
+  left: 55px;
+  bottom: 10px;
+  right: 10px;
+  line-height: 25px;
+  font-family: 'Indie Flower';
+  overflow: hidden;
+  outline: none;
+}
+.holes {
+  position: absolute;
+  left: 10px;
+  height: 25px;
+  width: 25px;
+  background: lightgoldenrodyellow;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 2px 0px #888;
+}
+.hole-top {
+  top: 10%;
+}
+.hole-middle {
+  top: 50%;
+}
+.hole-bottom {
+  bottom: 10%;
+}
+
+
+
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  -webkit-transform:translate(-50%,-50%);
+  -moz-transform:translate(-50%,-50%);
+  -o-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+
+  -webkit-transform:rotate(-45deg);
+  -moz-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+  -ms-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}
+
+.pencil{
+  width: 400px;
+  height: 15px;
+  background: #ffc334;
+  border-top: 10px solid #ffd268;
+  border-bottom: 10px solid #e2af38;
+}
+.pencil p{
+  margin: -17px;
+  padding: 0;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #d09200;
+}
+.pencil:before{
+  content: "";
+  border-style: solid;
+  border-width: 17px 40px 18px;
+  border-color: transparent #e29663 transparent transparent;
+  position: absolute;
+  top: 0px;
+  left: -80px;
+
+}
+.pencil:after{
+  content: "";
+  border-style: solid;
+  border-width: 17px 40px 18px;
+  border-color: transparent #262626 transparent transparent;
+  position: absolute;
+  top: 0px;
+  left: -80px;
+  -webkit-transform:scale(.3);
+  -moz-transform:scale(.3);
+  -o-transform:scale(.3);
+  -ms-transform:scale(.3);
+  transform:scale(.3);
+}
